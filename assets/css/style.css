@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(42, 66, 110);
+}
+.nav ul{
+    display: flex;
+    margin-right: 15px;
+    color: white    ;
+}
+li{
+    margin-left: 30px;
+    list-style: none;
+}
+h3{
+    color: white;
+    margin: 15px 0;
+}
+.nav{
+    margin: 15px 0;
+}
+.title .image img{
+    width: 250px;
+    margin-left: 90px;
+
+}
+.title{
+    width: 1300px;
+    height: 600px;
+    margin: 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 173, 135);
+}
+.title .info{
+    width: 400px;
+    display: flex;
+    margin-left: 40px;
+}
+h1{
+    color: white;
+}
+.space{
+    width: 100px;
+    height: 20px;
+    color: rgb(59, 173, 135);
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 68%;
+    left: 41%;
+    border-color: white;
+    border-radius: 3px;
+
+}
+.star{
+    font-size: 30px;
+    position: absolute;
+    top: 68%;
+    left: 49%;
+    color: white;
+}
+.spacetwo{
+    width: 100px;
+    height: 20px;
+    color: rgb(59, 173, 135);
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 68%;
+    left: 53%;
+    border-color: white;
+    border-radius: 3px;
+}
+.text{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 41%;
+}
